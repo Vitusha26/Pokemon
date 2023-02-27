@@ -1,0 +1,19 @@
+.leftSidePage {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	.pokemonNames {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.nextOrBefore {
+		display: flex;
+		justify-content: center;
+		gap: 30px;
+		margin-top: 20px;
+	}
+}
